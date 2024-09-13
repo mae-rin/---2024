@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイムテーブル</title>
+    <link rel="stylesheet" href="aaa.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+        <img src="weather_tooltip.png" alt="" class="weather_tooltip">
+        <div class="weather_switch js-weather_switch">
+            <img src="sunny.png" alt="" class="sunny">
+            <img src="triangle.svg" alt="" class="triangle">
+            <img src="rain.png" alt="" class="rain">
+        </div>
+
+        <!-- 晴れと雨のタイムテーブル本体（画像はCSSで挿入） -->
+        <div class="sunny_content is-active"></div>
+        <div class="rain_content"></div>
+    </div>
+</body>
+<script type="text/javascript" src="timetable.js"></script>
+</html>
